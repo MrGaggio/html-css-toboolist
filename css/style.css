@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F6F8F9;
 }
@@ -24,7 +28,38 @@ body {
 
 }
 
-.bottoms {
+.container {
+    height: 120px;
+    padding-top: 40px;
+    padding-left: 100px;
+
+}
+
+.bottoms_container {
     background-color: white;
     margin: 80px 600px 0;
+}
+
+.button1 {
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color:#47ADF1 ;
+    border-style: solid 1px;
+    border-radius: 7px;
+    border-color: white;
+}
+
+.button2 {
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #C5CBD0;
+    background-color: white;
+    border-style: solid 1px;
+    border-radius: 7px;
+    border-color: #C5CBD0;
 }
