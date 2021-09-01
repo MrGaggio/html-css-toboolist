@@ -22,8 +22,15 @@ body {
     height: 1500px;
     background-color:white;
     margin: 7px auto;
+    margin-bottom: 0;
     padding-left: 100px;
     padding-top: 100px;
+}
+
+#site_footer {
+    margin: auto;
+    height: 110px;
+    background-color: white;
 }
 
 .logo {
