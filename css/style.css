@@ -1,0 +1,25 @@
+body {
+    background-color: #F6F8F9;
+}
+
+#site_header {
+    position: relative;
+    background-color: white;
+
+}
+
+.logo {
+    height: 140px;
+    padding-left: 150px;
+    padding-top: 20px
+}
+
+
+.todo {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5rem;
+
+}
