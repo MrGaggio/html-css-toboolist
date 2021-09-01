@@ -89,7 +89,7 @@ body {
 }
 
 .allign {
-    height: 100px;
+    height: 80px;
 }
 
 .cerchio {
@@ -101,9 +101,26 @@ body {
     display: block;
 }
 
+.cerchio_red {
+	width:40px;
+	height:40px;
+	border-radius:50px;
+	background:white;
+    border: 1px solid #EA4237;
+    display: block;
+}
+
 
 .checkbox {
     color: #84D0C0;
+    position: absolute;
+    font-size: 25px;
+    padding-left: 7px;
+    
+}
+
+.checkbox_rosso {
+    color: #EA4237;
     position: absolute;
     font-size: 25px;
     padding-left: 7px;
@@ -125,6 +142,37 @@ body {
     padding-top: 10px;
     text-align: center;
     border-radius: 25px;
+}
 
+.little_container_viola {
+    display: inline-block;
+    color: white;
+    width: 130px;
+    height: 50px;
+    background-color:#9C72E4;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
 
+.little_container_green {
+    display: inline-block;
+    color: white;
+    width: 130px;
+    height: 50px;
+    background-color:#64C0A9;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.little_container_orange {
+    display: inline-block;
+    color: white;
+    width: 130px;
+    height: 50px;
+    background-color:#F29E33;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 25px;
 }
