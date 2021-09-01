@@ -1,15 +1,29 @@
 * {
     box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
     background-color: #F6F8F9;
+    
 }
 
 #site_header {
     position: relative;
     background-color: white;
+    margin: auto;
+    padding-bottom: 20px;
+    border-style: solid 1px black;
 
+}
+
+#main_container {
+    width: 70%;
+    height: 1500px;
+    background-color: grey;
+    margin: auto;
+    padding-left: 100px;
+    padding-top: 100px;
 }
 
 .logo {
@@ -23,21 +37,26 @@ body {
     display: inline-block;
     position: absolute;
     top: 30px;
-    font-family: 'Noto Sans JP', sans-serif;
     font-size: 5rem;
 
 }
 
 .container {
-    height: 120px;
-    padding-top: 40px;
+    height: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 100px;
+    
 
 }
 
 .bottoms_container {
     background-color: white;
-    margin: 80px 600px 0;
+    width: 70%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
 }
 
 .button1 {
@@ -63,3 +82,12 @@ body {
     border-radius: 7px;
     border-color: #C5CBD0;
 }
+
+.new_task {
+    font-size: 2.5rem;
+}
+
+.list {
+    list-style: none;
+}
+
