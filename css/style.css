@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -9,12 +11,12 @@ body {
 }
 
 #site_header {
-    position: relative;
     background-color: white;
     margin: auto;
-    padding-bottom: 20px;
     border-style: solid 1px black;
-
+    height: 150px;
+    vertical-align: middle;
+    padding-left: 15%;
 }
 
 #main_container {
@@ -35,16 +37,14 @@ body {
 
 .logo {
     height: 140px;
-    padding-left: 150px;
-    padding-top: 20px
+    vertical-align: middle;
 }
 
 
 .todo {
     display: inline-block;
-    position: absolute;
-    top: 30px;
     font-size: 5rem;
+    vertical-align: middle;
 
 }
 
